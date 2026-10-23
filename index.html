@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flexible Box Portfolio</title>
+<style>
+	img {
+		width: 240px;
+	} figure {
+		width: 220px;
+		margin: 15px;
+		// background: pink;
+	} figcaption {
+		font: 14pt/1.4em 'Roboto Serif';
+		text-align: center;alignment-baseline: 
+	} div {
+		width: 768px;
+		height: 512px;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-start;
+	} h1 {
+		text-align: center;
+		font: 48pt/1.4em 'Dancing Script';
+	} table {
+		margin: 0 auto;
+		border: 1px solid #578B30;
+		border-collapse: collapse;
+		font: 14pt/1.4em 'Roboto Serif';
+	} tr:nth-child(even) {
+		background: #E4E5BB;
+
+	} td, th {
+		padding: 6px 18px;
+	}
+</style>
+</head>
+
+<body>
+	<h1>Flexbox Portfolio</h1>
+	<div>
+	<figure>
+	<img src="thumb_discord-ver.jpg" />
+	<figcaption>Portrait</figcaption>
+	</figure>
+	<figure>
+	<img src="thumb_between-two-fires.jpg" />
+	<figcaption>Between Two Fires</figcaption>
+	</figure>
+	<figure>
+	<a href="zeeple.jpg">
+	<img src="thumb_zeeple.jpg" />
+	</a>
+	<figcaption>Afton Sparv</figcaption>
+	</figure>
+	</div>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Medium</th>
+			<th>Year</th>
+		</tr>
+	  	<tr>
+			<td>Portrait</td>
+			<td>Digital/Illustrator</td>
+			<td>2025</td>
+		</tr>
+		<tr>
+			<td>Between Two Fires</td>
+			<td>Digital/Photoshop</td>
+			<td>2025</td>
+		</tr>
+		<tr>
+			<td>Afton Sparv</td>
+			<td>Digital/Photoshop</td>
+			<td>2026</td>
+		</tr>
+	</table>
+</body>
+</html>
